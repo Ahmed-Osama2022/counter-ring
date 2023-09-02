@@ -12,14 +12,13 @@ const staticCacheName = 'site-static-ring-v1';
 const assets = [
     '/',
     '/index.html',
-    '/Noto_Naskh_Arabic/NotoNaskhArabic-VariableFont_wght.ttf',
-    '/Noto_Naskh_Arabic/OFL.txt',
-    '/Noto_Naskh_Arabic/static/NotoNaskhArabic-Regular.ttf',
-    '/Noto_Naskh_Arabic/static/NotoNaskhArabic-Medium.ttf',
-    '/Noto_Naskh_Arabic/static/NotoNaskhArabic-Bold.ttf',
-    '/Noto_Naskh_Arabic/static/NotoNaskhArabic-SemiBold.ttf',
-    '/images/logo.png',
-    '/images/gmail-icon.png',
+    './images/logo.jpg',
+    './images/gmail-icon.png',
+    './Noto_Naskh_Arabic/NotoNaskhArabic-VariableFont_wght.ttf',
+    './Noto_Naskh_Arabic/static/NotoNaskhArabic-Regular.ttf',
+    './Noto_Naskh_Arabic/static/NotoNaskhArabic-Medium.ttf',
+    './Noto_Naskh_Arabic/static/NotoNaskhArabic-Bold.ttf',
+    './Noto_Naskh_Arabic/static/NotoNaskhArabic-SemiBold.ttf'
 ];
 
 self.addEventListener('install', evt => {
